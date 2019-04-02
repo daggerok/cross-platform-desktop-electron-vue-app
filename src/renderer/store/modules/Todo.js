@@ -2,7 +2,6 @@ const state = {
   todos: [],
 };
 
-
 const actions = {
   ADD_TODO({ commit }, name) {
     commit('ADD_TODO', name);
