@@ -20,6 +20,7 @@
 
 <script>
   import { mapState } from 'vuex';
+
   export default {
     name: 'landing-page',
     data() {
@@ -47,6 +48,16 @@
 
   body {
     font-family: 'Source Sans Pro', sans-serif;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #wrapper {
+    background: radial-gradient(
+        ellipse at top left,
+        rgba(255, 255, 255, 1) 40%,
+        rgba(229, 229, 229, .9) 100%
+    );
   }
 
   .in {
