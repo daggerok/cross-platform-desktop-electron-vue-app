@@ -7,7 +7,7 @@ _generate project_
 npm i -g @vue/cli @vue/cli-init
 vue init simulatedgreg/electron-vue cross-platform-desktop-vue-example
 cd cross-platform-desktop-vue-example
-npm
+npm i
 ```
 
 _development_
